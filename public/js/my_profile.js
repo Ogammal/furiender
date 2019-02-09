@@ -25,15 +25,15 @@ $(document).ready(function(){
 
       newDiv.append("<h2>Pet's Energy Level : " + data[i].energy + "</h2>");
 
-      newDiv.append("<h2>Fun Facts : " + data[i].funFacts + "</h2>");
+    //   newDiv.append("<h2>Fun Facts : " + data[i].funFacts + "</h2>");
 
-      newDiv.append("<h2>Pet's Favorite Food : " + data[i].favoriteFood + "</h2>");
+    //   newDiv.append("<h2>Pet's Favorite Food : " + data[i].favoriteFood + "</h2>");
 
-      newDiv.append("<h2>Pet's Favorite Toy : " + data[i].favoriteToy + "</h2>");
+    //   newDiv.append("<h2>Pet's Favorite Toy : " + data[i].favoriteToy + "</h2>");
 
-      newDiv.append("<h2>Pet's Favorite Park : " + data[i].favoritePark + "</h2>");
+    //   newDiv.append("<h2>Pet's Favorite Park : " + data[i].favoritePark + "</h2>");
 
-      newDiv.append("<h2>Member Since : " + data[i].createdAt + "</h2>");
+    //   newDiv.append("<h2>Member Since : " + data[i].createdAt + "</h2>");
     
 
       $("#userFound").append(newDiv);
